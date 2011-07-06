@@ -1,0 +1,45 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "fr", :lang => "fr"}
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+    %title Marion Duprey - Ma vie, mon oeuvre
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+    #container
+      #sidebar
+        %img{:alt => "Marion Duprey", :src => "/images/photo.jpg"}
+        %ul#details
+          %li#emailside marion dot duprey at gmail dot com
+          %li J'aime le ruby, les démopartys, mon blog, le dessin, le piano, écouter de la musique, découvrir toute sorte de trucs
+          %li Je n'aime pas les gens fermés d'esprits, me faire attaquer physiquement par quoi que ce soit, être énervée
+      #content
+        %h1.blue Où j'ai travaillé
+        .h1-triangle-bottom
+        - settings.config['work'].each do |work|
+          - work = work[1]
+          %h2
+            = work['name']
+            %small== #{work['begin']} - #{work['end']}
+          .position= work['position']
+          %p= work['description']
+
+        %h1.pink Compétences
+        - settings.config['known'].each do |known|
+          - known = known[1]
+          .floatleft
+            %h3= known['name']
+            %ul
+              - known['list'].each do |k|
+                %li= k
+        .clear
+        		
+        %h1.orange Diplômes
+        .h1-triangle-bottom
+        - settings.config['studies'].each do |studies|
+          - studies = studies[1]
+          %h2
+            = studies['name']
+            %small== #{studies['begin']} - #{studies['end']}
+          .position= studies['position']
+          %p= studies['description']
+          	

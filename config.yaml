@@ -1,0 +1,75 @@
+work:
+  pmsipilot:
+    name: PMSIpilot
+    begin: Septembre 2010
+    end: Présent
+    position: Web Développeuse
+    description: "Employée au sein de l'équipe de R&D, j'ai aussi bien fait de la résolution de bug que participé à la conceptions d'architectures. La méthodologie inspirée de Scrum m'a apprit l'agilité."
+  orupaca:
+    name: ORUPACA
+    begin: Juillet 2009
+    end: Juillet 2010
+    position: Web Développeuse
+    description: "Dans ce GIP (Groupement d'Intérêt Public), j'ai participé à tout les aspects de la vie d'un projet (via différents projets) : la conception en prenant en compte les besoins clients, le développement, la mise en production, la maintenance (résolution de bugs et évolutions), ainsi que le contact client de type support logiciel."
+known:
+  web:
+    name: Développement Web
+    list:
+      - (x)HTML
+      - notions de HTML5
+      - javascript (+ jquery)
+      - CSS(3)
+  ruby:
+    name: Ruby
+    list:
+      - ruby (7ans)
+      - "frameworks : rails (1an), sinatra, jekyll"
+      - "templating : haml, liquid"
+  php:
+    name: Php
+    list:
+      - php (4ans)
+      - "frameworks : symfony 1.4 (2ans)"
+  database:
+    name: Bases de données
+    list:
+      - MySQL (MyISAM et InnoDB)
+      - MongoDB
+      - PostgreSQL
+  stock:
+    name: Structuration de données
+    list:
+      - XML
+      - YAML
+      - JSON
+  test:
+    name: Testing
+    list: 
+      - Utilisation de Jenkins
+      - Tests unitaires 
+      - Tests fonctionnels
+  methodo:
+    name: Méthodoligies
+    list:
+      - scrum
+      - pomodoro
+  other:
+    name: Autre
+    list:
+      - "OS : Linux (ubuntu / debian), Windows"
+      - légères connaissances sous the Gimp2
+studies:
+  fac:
+    name: Licence informatique
+    begin: 2008
+    end: 2009
+    position: Université du Havre
+    description: "Diplôme obtenu : Licence informatique"
+  dut:
+    name: DUT Informatique
+    begin: 2006
+    end: 2008
+    position: IUT du Havre
+    description: "Diplôme obtenu : DUT informatique option génie logiciel"
+    
+  
