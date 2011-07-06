@@ -1,11 +1,11 @@
 work:
-  pmsipilot:
+  w1pmsipilot:
     name: PMSIpilot
     begin: Septembre 2010
     end: Présent
     position: Web Développeuse
     description: "Employée au sein de l'équipe de R&D, j'ai aussi bien fait de la résolution de bug que participé à la conception d'architectures. La méthodologie inspirée de Scrum m'a apprit l'agilité."
-  orupaca:
+  w2orupaca:
     name: ORUPACA
     begin: Juillet 2009
     end: Juillet 2010
