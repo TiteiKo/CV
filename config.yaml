@@ -4,7 +4,7 @@ work:
     begin: Septembre 2010
     end: Présent
     position: Web Développeuse
-    description: "Employée au sein de l'équipe de R&D, j'ai aussi bien fait de la résolution de bug que participé à la conception d'architectures. La méthodologie inspirée de Scrum m'a appris l'agilité."
+    description: "Employée au sein de l'équipe de R&D, j'ai aussi bien fait de la résolution de bugs que participé à la conception d'architectures. La méthodologie inspirée de Scrum m'a appris l'agilité."
   w2orupaca:
     name: ORUPACA
     begin: Juillet 2009
@@ -12,25 +12,25 @@ work:
     position: Web Développeuse
     description: "Dans ce GIP (Groupement d'Intérêt Public), j'ai participé à tout les aspects de la vie d'un projet (via différents projets) : la conception en prenant en compte les besoins clients, le développement, la mise en production, la maintenance (résolution de bugs et évolutions), ainsi que le contact client de type support logiciel."
 known:
-  k1web:
+  k1:
     name: Développement Web
     list:
       - (x)HTML
       - notions de HTML5
       - javascript (+ jquery)
       - CSS(3)
-  k2ruby:
+  k2:
     name: Ruby
     list:
       - ruby (7ans)
       - "frameworks : rails (1an), sinatra, jekyll"
       - "templating : haml, liquid"
-  k3php:
+  k3:
     name: Php
     list:
       - php (4ans)
       - "frameworks : symfony 1.4 (2ans)"
-  k4database:
+  k4e:
     name: Bases de données
     list:
       - MySQL (MyISAM et InnoDB)
