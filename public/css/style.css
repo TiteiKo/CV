@@ -13,10 +13,10 @@ body {
 #content {
     float: right;
     margin: 0 0 0 0;
-    padding: 0 0 0 20px;
+    padding: 0 20px 0 20px;
     position: relative;
     text-align: justify;
-    width: 698px;
+    width: 665px;
     background-color: #ffffff;
     border: 5px solid #fff; 
     -moz-box-shadow: -10px 0px 8px #ccc;  
