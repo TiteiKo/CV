@@ -57,7 +57,7 @@ known:
     name: Autre
     list:
       - "OS : Linux (ubuntu / debian), Windows"
-      - "CVS : git, svn"
+      - "VCS : git, svn"
 studies:
   fac:
     name: Licence informatique
