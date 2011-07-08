@@ -30,47 +30,44 @@ known:
     list:
       - php (4ans)
       - "frameworks : symfony 1.4 (2ans)"
-  k4e:
+  k4:
     name: Bases de données
     list:
       - MySQL (MyISAM et InnoDB)
       - MongoDB
       - PostgreSQL
-  k5stock:
+  k5:
     name: Structuration de données
     list:
       - XML
       - YAML
       - JSON
-  k6test:
+  k6:
     name: Testing
     list: 
       - Utilisation de Jenkins
       - Tests unitaires 
       - Tests fonctionnels
-  k7methodo:
+  k7:
     name: Méthodologies
     list:
       - scrum
       - pomodoro
-  k8other:
+  k8:
     name: Autre
     list:
       - "OS : Linux (ubuntu / debian), Windows"
-      - "notions d'utilisation de the Gimp2"
-      - utilisation de git
+      - "CVS : git, svn"
 studies:
   fac:
     name: Licence informatique
     begin: 2008
     end: 2009
     position: Université du Havre
-    description: "Diplôme obtenu : Licence informatique"
   dut:
-    name: DUT Informatique
+    name: DUT Informatique option génie logiciel
     begin: 2006
     end: 2008
     position: IUT du Havre
-    description: "Diplôme obtenu : DUT informatique option génie logiciel"
     
   

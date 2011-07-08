@@ -17,8 +17,8 @@
       #content
         %h1.orange J'ai travaillé
         .h1-triangle-bottom
-        - settings.config['work'].each do |work|
-          - work = work[1]
+        - settings.config['work'].keys.sort.each do |work|
+          - work = settings.config['work'][work]
           %h2
             = work['name']
             %small== #{work['begin']} - #{work['end']}
@@ -27,8 +27,8 @@
 
         %h1.orange J'ai appris
         .h1-triangle-bottom
-        - settings.config['known'].each do |known|
-          - known = known[1]
+        - settings.config['known'].keys.sort.each do |known|
+          - known = settings.config['known'][known]
           .floatleft
             %h3= known['name']
             %ul
