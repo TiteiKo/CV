@@ -1,59 +1,53 @@
 work:
+  w0novagile:
+    name: "<a href='http://novagile.fr' target='_blank' rel='nofollow'>Novagile</a>"
+    begin: "Octobre 2011"
+    end: "Présent"
+    position: "Web Développeuse (Ruby/Rails)"
+    description: "Dans une équipe de taille réduite, je travaille sur différents projets en Ruby on Rails. J'ai pu découvrir des projets avec plus de fréquentation que ce dont j'avais pu avoir l'habitude auparavant, comme <a href='http://bookandgolf.com/' target='_blank' rel='nofollow'>Book And Golf</a> ; mais aussi des technologies beaucoup plus orientées Front, comme backbone.js sur <a href='http://clubchauffeur.com' target='_blank' rel='nofollow'>Club Chauffeur</a>.<br />Mes connaissances pour des tests plus cohérents, pertinents et complets se sont approfondies, et nous travaillons avec des revues de codes systématiques afin de partager nos points de vues et bonnes pratiques."
   w1pmsipilot:
-    name: PMSIpilot
-    begin: Septembre 2010
-    end: Présent
-    position: Web Développeuse
+    name: "PMSIpilot"
+    begin: "Septembre 2010"
+    end: "Octobre 2011"
+    position: "Web Développeuse (Php)"
     description: "Employée au sein de l'équipe de R&D, j'ai aussi bien fait de la résolution de bugs que participé à la conception d'architectures. La méthodologie inspirée de Scrum m'a appris l'agilité."
   w2orupaca:
-    name: ORUPACA
-    begin: Juillet 2009
-    end: Juillet 2010
-    position: Web Développeuse
+    name: "ORUPACA"
+    begin: "Juillet 2009"
+    end: "Juillet 2010"
+    position: "Web Développeuse (Php)"
     description: "Dans ce GIP (Groupement d'Intérêt Public), j'ai participé à tout les aspects de la vie d'un projet (via différents projets) : la conception en prenant en compte les besoins clients, le développement, la mise en production, la maintenance (résolution de bugs et évolutions), ainsi que le contact client de type support logiciel."
 known:
-  k1:
-    name: Développement Web
-    list:
-      - (x)HTML
-      - notions de HTML5
-      - javascript (+ jquery)
-      - CSS(3)
   k2:
-    name: Ruby
+    name: "Ruby"
     list:
-      - ruby (7ans)
-      - "frameworks : rails (1an), sinatra, jekyll"
-      - "templating : haml, liquid"
+      - "Ruby <small>(7ans)</small>"
+      - "Frameworks : rails <small>(2 ans)</small>, sinatra, jekyll"
   k3:
-    name: Php
+    name: "Bases de données"
     list:
-      - php (4ans)
-      - "frameworks : symfony 1.4 (2ans)"
+      - "PostgreSQL"
+      - "MySQL <small>(MyISAM et InnoDB)</small>"
+      - "MongoDB"
   k4:
-    name: Bases de données
-    list:
-      - MySQL (MyISAM et InnoDB)
-      - MongoDB
-      - PostgreSQL
-  k5:
-    name: Structuration de données
-    list:
-      - XML
-      - YAML
-      - JSON
-  k6:
-    name: Testing
+    name: "Testing"
     list: 
-      - Utilisation de Jenkins
-      - Tests unitaires 
-      - Tests fonctionnels
-  k7:
-    name: Méthodologies
+      - "Jenkins, Travis"
+      - "Tests unitaires <small>(rspec, factory_girl, VCR)</small>" 
+      - "Tests d'acceptance <small>(rspec, capybara)</small>"
+  k5:
+    name: "Javascript"
     list:
-      - scrum
-      - pomodoro
+      - "Librairie : JQuery"
+      - "Framework : Backbone.js"
   k8:
+    name: "Intégration"
+    list:
+      - "HTML5"
+      - "HAML"
+      - "Sass"
+      - "CSS3"
+  k9:
     name: Autre
     list:
       - "OS : Linux (ubuntu / debian), Windows"
